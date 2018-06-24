@@ -1,0 +1,290 @@
+html,body {
+
+	position:relative;
+	top:0;
+	
+	overflow-x: hidden;
+}
+
+.muk-green {
+	background-color:rgb(133,198,144);
+}
+
+.muk-purple {
+	background: purple;
+
+}
+
+
+
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+	position: relative !important;
+}
+
+.navbar-header {
+
+
+} 
+
+.main-wrapper{
+	width: 100vw;
+	height:100vh;
+	background: url(../images/iconic-building.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.wrapper {
+	background: rgba(255,255,255,0.7);
+	width:50vw;
+	height:500px;
+	position: relative;
+	left: 25vw;
+	top: 10vh;
+	border-radius: 6px;
+
+}
+
+.wrapper h1 {
+	padding: 10px;
+	text-align: center;
+	font-size: 1em;
+}
+
+.wrapper h2,h3{
+	text-align: center;
+	font-size: 1em;
+}
+
+.wrapper form {
+	width: 70%;
+	position: relative;
+	padding:10% ;
+	
+	background: rgba(255,255,255,0.3);
+}
+
+.wrapper h3{
+	position: relative;
+	padding: 10%;
+	font-size: 1em;
+
+}
+
+.more-info {
+	float: right; 
+	width: 30%;
+}
+
+.confirm_candidate {
+	position: fixed;
+	    top: 30vh;
+	    left:30%;
+	    padding: 20px; 
+	    background-color:rgba(0,0,0,0.8); 
+	    color:#fff; 
+	    z-index:10; 
+	    border-radius: 6px;
+}
+
+
+table .voter_details  {
+
+	font-size: 4em;
+}
+
+  @media screen and (max-width: 1200px) { 
+
+.navbar-header {
+  	width: 100% !important;
+  }
+
+   .navbar-brand {
+   	width: 100%;
+   }
+    
+   .navbar-brand img{
+
+   	margin-left: auto !important;
+   	margin-right: auto !important;
+   	clear: both !important;
+   	padding: 0 !important;
+   	padding-right: 10px !important;
+
+   }
+   
+
+      .navbar-inverse .navbar-nav > li > a {
+ 
+    line-height: 0px !important;
+    } 
+
+    .nav-text {
+   	width: 100% !important;
+    font-size: 10px !important;
+    //line-height: 100px !important;
+    font-size: 35px !important;
+   }
+
+   .navbar-toggle {
+
+   	 margin-right: 100px !important;
+   }
+
+
+  }
+
+
+ @media screen and (max-width: 700px) {
+   
+  .navbar-header {
+  	width: 100% !important;
+  }
+
+   .navbar-brand {
+   	width: 100%;
+   }
+    
+   .navbar-brand img{
+
+   	margin-left: auto !important;
+   	margin-right: auto !important;
+   	clear: both !important;
+   	padding: 0 !important;
+   	padding-right: 10px !important;
+
+   }
+     
+
+    .nav-text {
+   	width: 100% !important;
+    font-size: 10px !important;
+    line-height: 25px !important;
+    font-size: 25px !important;
+   }
+
+   .navbar-toggle {
+
+   	 margin-right: 100px !important;
+   }
+
+   .main-wrapper{
+	width: 100vw;
+	height:100vh;
+	
+}
+   
+   .wrapper {
+	background: rgba(255,255,255,0.7);
+	width:100vw;
+	height:500px;
+	position: relative;
+	left: 0vw;
+	top: 0vh;
+	border-radius: 6px;
+   }
+
+   .wrapper h1 {
+	padding: 10px;
+	text-align: center;
+	font-size: 1em;
+}
+
+.wrapper h2,h3{
+	text-align: center;
+	font-size: 1em;
+}
+
+.wrapper form {
+	width: 90%;
+	position: relative;
+	
+	
+	background: rgba(255,255,255,0.3);
+}
+
+.wrapper h3{
+	position: relative;
+	padding: 10%;
+	font-size: 1em;
+
+}
+
+ .more-info {
+	float: right; 
+	width: 100%;
+}
+
+
+ }
+
+
+
+ @media screen and (max-width: 625px) {
+
+ 	h1 {
+ 		position: relative !important;
+
+ 	}
+
+  .navbar-header {
+
+ height: auto;
+ position: relative !important;
+
+}
+  
+.navbar-brand {
+   position: relative !important;
+   font-size: 1em !important;
+   margin: 5px !important;
+   top: -10px !important;
+   color: #fff;
+   
+  }
+  
+    .navbar-inverse .navbar-nav > li > a {
+ 
+    line-height: 5px !important;
+    border-bottom: 1px dotted black;
+    padding: 15px;
+    display: inline-block;
+    
+    } 
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a  {
+	color: #fff;
+
+
+}
+
+    .wrapper {
+	background: rgba(255,255,255,0.7);
+	width:100vw;
+	height:500px;
+	position: relative;
+	left: 0vw;
+	top: 0vh;
+	border-radius: 6px;
+   }
+
+
+  .confirm_candidate {
+    
+    width:100% !important;
+    position: absolute;
+    top:0px;
+    left:0px;
+
+  }
+
+ }
+
+ /* Responsive Design  */
+
+
+
+ 
